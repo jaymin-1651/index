@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: inherit;
+    background-color: rgb(219, 174, 174);
+    align-items: center;
+    background: url('4.jpg');
+    background-color: wheat;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height:100vh; */
+    width: auto;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+label {
+    font-size: 26px;
+    color: white;
+}
+
+.text {
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 37px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-bottom: 23px;
+    filter: brightness();
+}
+
+.size {
+    font-size: 23px;
+}
+
+.btn {
+    height: 67px;
+    font-size: 40px;
+    width: 100%;
+    border: 10px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.Container {
+    /* justify-content: center; */
+    align-items: center;
+    border: 4px solid white;
+    height: 247%;
+    padding: 20px;
+    padding-left: 18px;
+    padding-right: 25px;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+label {
+    color: white;
+    font-size: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #FF416C,
+            /*#f46b52,*/
+            rgb(102, 193, 242), #FF416C, rgb(102, 193, 242));
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#checkbox1
+
+/*,#checkbox2,#carmake,#bikemake */
+    {
+    size: 70px;
+}
